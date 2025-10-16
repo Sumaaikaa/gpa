@@ -11,7 +11,7 @@ semesters = st.number_input("Enter total number of semesters completed:", min_va
 gpa_list = []
 
 for i in range(int(semesters)):
-    gpa = st.number_input(f"Enter GPA for Semester {i+1}:", min_value=0.0, max_value=4.0")
+    gpa = st.number_input(f"Enter GPA for Semester {i+1}:")
     gpa_list.append(gpa)
 
 
